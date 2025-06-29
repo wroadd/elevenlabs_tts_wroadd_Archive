@@ -17,7 +17,7 @@ You can find ElevenLab's privacy policy [here](https://beta.elevenlabs.io/privac
 
 This component is available via HACS as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories) which is the recommended method of installation.
 
-You can also copy `custom_components/elevenlabs_tts` to your `custom_components` folder in HomeAssistant if you prefer to install manually.
+You can also copy `custom_components/elevenlabs_tts_wroadd` to your `custom_components` folder in HomeAssistant if you prefer to install manually.
 
 ## Setup
 
