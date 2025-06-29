@@ -13,13 +13,13 @@ PLATFORMS = [Platform.TTS]
 DOMAIN = "elevenlabs_tts"
 VERSION = "1.0.0"
 
-DEFAULT_VOICE = "Laura"
+DEFAULT_VOICE = "Vera"
 CONF_STABILITY = "stability"
 DEFAULT_STABILITY = 0.75
 CONF_SIMILARITY = "similarity"
 DEFAULT_SIMILARITY = 0.9
 CONF_MODEL = "model"
-DEFAULT_MODEL = "eleven_turbo_v2_5"
+DEFAULT_MODEL = "eleven_flash_v2_5"
 CONF_OPTIMIZE_LATENCY = "optimize_streaming_latency"
 DEFAULT_OPTIMIZE_LATENCY = 0
 CONF_STYLE = "style"
