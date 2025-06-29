@@ -251,7 +251,27 @@ class ElevenLabsClient:
                 style,
                 use_speaker_boost,
             )
-
+        if model == "eleven_v3":
+            style = (
+                options.get(CONF_STYLE)
+                or self.config_entry.options.get(CONF_STYLE)
+                or DEFAULT_STYLE
+            )
+            use_speaker_boost = (
+                options.get(CONF_USE_SPEAKER_BOOST)
+                or self.config_entry.options.get(CONF_USE_SPEAKER_BOOST)
+                or DEFAULT_USE_SPEAKER_BOOST
+            )
+            return (
+                voice_id,
+                stability,
+                similarity,
+                model,
+                optimize_latency,
+                api_key,
+                style,
+                use_speaker_boost,
+            )
         return (
             voice_id,
             stability,
