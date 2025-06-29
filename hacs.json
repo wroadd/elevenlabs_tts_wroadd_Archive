@@ -1,6 +1,6 @@
 {
   "name": "ElevenLabs TTS - wroadd",
-  "filename": "elevenlabs_tts.zip",
+  "filename": "elevenlabs_tts_wroadd.zip",
   "hide_default_branch": true,
   "homeassistant": "2023.8.1",
   "render_readme": true,
