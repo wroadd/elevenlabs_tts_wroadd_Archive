@@ -10,8 +10,8 @@ MIN_REQUIRED_HA_VERSION = "0.0.0"  # set min required version in hacs.json
 
 PLATFORMS = [Platform.TTS]
 
-DOMAIN = "elevenlabs_tts"
-VERSION = "1.0.0"
+DOMAIN = "elevenlabs_tts_wroadd"
+VERSION = "0.0.2"
 
 DEFAULT_VOICE = "Vera"
 CONF_STABILITY = "stability"

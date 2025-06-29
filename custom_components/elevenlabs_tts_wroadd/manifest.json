@@ -1,5 +1,5 @@
 {
-  "domain": "elevenlabs_tts",
+  "domain": "elevenlabs_tts_wroadd",
   "name": "ElevenLabs TTS-wroadd",
   "codeowners": [
     "@carleeno"
