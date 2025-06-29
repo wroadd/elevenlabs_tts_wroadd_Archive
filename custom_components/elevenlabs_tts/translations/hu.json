@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "A fiók már konfigurálva van",
+            "reauth_successful": "Az újra hitelesítés sikeres"
+        },
+        "error": {
+            "already_configured": "A fiók már konfigurálva van",
+            "cannot_connect": "Nem sikerült csatlakozni",
+            "invalid_auth": "Érvénytelen hitelesítés"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API kulcs"
+                },
+                "description": "Szerezd be az API kulcsodat az Eleven Labs weboldaláról",
+                "title": "Eleven Labs - Beállítás"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "api_key": "API kulcs",
+                    "voice": "Használandó hang neve",
+                    "stability": "A beszéd szintézis stabilitásának beállítása",
+                    "similarity": "A beszéd szintézis tisztaságának/hasonlóságának növelése",
+                    "model": "A kérésekhez használt modell módosítása",
+                    "optimize_streaming_latency": "A késleltetés csökkentése a minőség rovására",
+                    "style": "Stílus meghatározása, nem támogatott az v1 modellekben",
+                    "use_speaker_boost": "Hangszóró erősítés, nem támogatott az v1 modellekben"
+                }
+            }
+        }
+    }
+}
