@@ -47,14 +47,14 @@ class ElevenLabsProvider(TextToSpeechEntity):
         """Initialize the provider."""
         self._client = client
         self._config_entry = config_entry
-        self._name = "ElevenLabs TTS"
+        self._name = "ElevenLabs TTS-Wroadd"
 
         self._attr_unique_id = f"{config_entry.entry_id}-tts"
 
     @property
     def default_language(self) -> str:
         """Return the default language."""
-        return "en"
+        return "hu"
 
     @property
     def supported_languages(self) -> list[str]:
